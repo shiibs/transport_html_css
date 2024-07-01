@@ -1,0 +1,1117 @@
+<html
+  lang="en-US"
+  class="sizes customelements history pointerevents postmessage webgl websockets cssanimations csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rulecolor csscolumns-rulestyle csscolumns-rulewidth csscolumns-breakbefore csscolumns-breakafter csscolumns-breakinside flexbox picture srcset webworkers"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Transport and Logistics</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header Top Area -->
+    <div class="header-top-area">
+      <div class="header-top-info">
+        <ul>
+          <li>
+            <a href="#">
+              <i class="bi bi-geo-alt-fill"></i> Location : 12W MG Street
+              Hobert, CA
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-envelope"></i> Our Email : helpus@gmail.com
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-clock"></i> Office Time : Mon - Fri 8:00 - 6:30
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="header-top-social">
+        <span>Follow On:</span>
+        <ul>
+          <li>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- md screen header -->
+
+    <div class="mobile-header">
+      <div class="mobile-header-top">
+        <div class="mobile-logo">
+          <img src="images/logo/ts_logo.png" alt="logo not found" />
+        </div>
+        <div class="hamburger" onclick="toggleNav()">
+          <i class="bi bi-list"></i>
+        </div>
+      </div>
+
+      <div class="mobile-menu" id="mobileMenu">
+        <div class="logo-container">
+          <div class="mobile-menu-logo">
+            <img src="images/logo/ts_logo.png" alt="logo not found" />
+          </div>
+          <div class="close-button" onclick="toggleNav()">
+            <i class="bi bi-x-lg"></i>
+          </div>
+        </div>
+
+        <div class="mobile-menu-inner">
+          <ul>
+            <li class="menu-item">
+              <div class="main-link-container">
+                <a href="#">Home</a>
+                <div class="menu-expand" onclick="toggleSubMenu(this)">+</div>
+              </div>
+              <ul class="sub-menu">
+                <li><a href="#">Home One</a></li>
+                <li><a href="#">Home Two</a></li>
+                <li><a href="#">Home Dark</a></li>
+                <li><a href="#">Home Dark Two</a></li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="main-link-container">About</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="main-link-container">Services</a>
+            </li>
+            <li class="menu-item">
+              <div class="main-link-container">
+                <a href="#">Pages</a>
+                <a class="menu-expand" onclick="toggleSubMenu(this)">+</a>
+              </div>
+              <ul class="sub-menu">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Service Details</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Team Details</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">Project Details</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">404 Page</a></li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <div class="main-link-container">
+                <a href="#">News</a>
+                <a class="menu-expand" onclick="toggleSubMenu(this)">+</a>
+              </div>
+              <ul class="sub-menu">
+                <li><a href="#">Blog Standard</a></li>
+                <li><a href="#">Blog Details</a></li>
+              </ul>
+            </li>
+            <li class="menu-item menu-last">
+              <a href="#" class="main-link-container">Contacts</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="menu-social-area">
+          <h4>Subscribe &amp; Follow</h4>
+          <ul class="menu-social">
+            <li>
+              <i class="bi bi-facebook text-white"></i>
+            </li>
+            <li>
+              <i class="bi bi-twitter text-white"></i>
+            </li>
+            <li>
+              <i class="bi bi-pinterest text-white"></i>
+            </li>
+            <li>
+              <i class="bi bi-vimeo text-white"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+      <div class="header-menu-area">
+        <div class="logo-overlay"></div>
+        <div class="header-area">
+          <div class="logo-img">
+            <img src="images/logo/ts_logo.png" alt="logo not found" />
+          </div>
+
+          <div class="main-menu-area">
+            <div class="main-menu-area-inner">
+              <nav class="main__menu" id="mobile-menu">
+                <ul>
+                  <li>
+                    <a href="#"> Home <i class="bi bi-chevron-down"></i> </a>
+                    <ul class="sub__menu">
+                      <li><a href="#">Home One</a></li>
+                      <li><a href="#">Home Two</a></li>
+                      <li><a href="#">Home Dark</a></li>
+                      <li>
+                        <a href="#">Home Dark Two</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="#"> About </a></li>
+                  <li><a href="#"> Services </a></li>
+                  <li>
+                    <a href="#"> Pages <i class="bi bi-chevron-down"></i> </a>
+                    <ul class="sub__menu">
+                      <li><a href="#">Services</a></li>
+                      <li>
+                        <a href="#">Service Details</a>
+                      </li>
+                      <li><a href="#">Team</a></li>
+                      <li>
+                        <a href="#">Team Details</a>
+                      </li>
+                      <li><a href="#">Project</a></li>
+                      <li>
+                        <a href="#">Project Details</a>
+                      </li>
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">404 Page</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#"> News <i class="bi bi-chevron-down"></i> </a>
+                    <ul class="sub__menu">
+                      <li>
+                        <a href="#">Blog Standard</a>
+                      </li>
+                      <li>
+                        <a href="#">Blog Details</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="last-menu-item"><a href="#"> Contacts </a></li>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="contact-area">
+              <div class="contact-area-inner">
+                <div class="contact-icon">
+                  <a href="tel:+562015550124">
+                    <i class="bi bi-telephone"></i>
+                  </a>
+                </div>
+                <div class="conact-content">
+                  <span>Emergency</span>
+                  +56 (201) 555-0112
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Carousel -->
+
+    <div class="swiper mySwiper main-carousel-area">
+      <div class="swiper-wrapper">
+        <div
+          class="swiper-slide main-carousel"
+          style="background-image: url('images/slider/carousel2.png')"
+        >
+          <div class="slider-content">
+            <h5>Our expertise lies in the field of transportation</h5>
+            <h1>
+              Experience Top-Quality <br />
+              Logistics & Transportation
+            </h1>
+            <p>
+              Experience unparalleled service in logistics and transportation,
+              ensuring timely and safe deliveries.
+            </p>
+            <a class="btn1" href="#">
+              More Details <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="swiper-slide main-carousel"
+          style="background-image: url('images/slider/carousel2.png')"
+        >
+          <div class="slider-content">
+            <h5>Our expertise lies in the field of transportation</h5>
+            <h1>
+              Experience Top-Quality <br />
+              Logistics & Transportation
+            </h1>
+            <p>
+              Experience unparalleled service in logistics and transportation,
+              ensuring timely and safe deliveries.
+            </p>
+            <a class="btn1" href="#">
+              More Details <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        <div
+          class="swiper-slide main-carousel"
+          style="background-image: url('images/slider/carousel2.png')"
+        >
+          <div class="slider-content">
+            <h5>Our expertise lies in the field of transportation</h5>
+            <h1>
+              Experience Top-Quality <br />
+              Logistics & Transportation
+            </h1>
+            <p>
+              Experience unparalleled service in logistics and transportation,
+              ensuring timely and safe deliveries.
+            </p>
+            <a class="btn1" href="#">
+              More Details <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        >
+      </div>
+      <div class="swiper-nav">
+        <div class="button-next"><i class="bi bi-chevron-left"></i></div>
+        <div class="button-prev"><i class="bi bi-chevron-right"></i></div>
+      </div>
+    </div>
+
+    <!-- Feature  -->
+
+    <div class="feature-area">
+      <div class="feature-main">
+        <div class="feature-button-next ml-10">
+          <i class="bi bi-arrow-left"></i>
+        </div>
+        <div class="swiper2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide feature">
+              <div class="feature_icon">
+                <img src="images/feature/icon3.png" alt="" />
+              </div>
+              <div class="feature-content">
+                <h2>Cross-Docking</h2>
+                <p>
+                  Streamline the transfer of goods from inbound to outbound
+                  transportation without long-term storage.
+                </p>
+              </div>
+              <span class="line"></span>
+            </div>
+            <div class="swiper-slide feature">
+              <div class="feature_icon">
+                <img src="images/feature/icon2.png" alt="" />
+              </div>
+              <div class="feature-content">
+                <h2>Cold Storage</h2>
+                <p>
+                  Keep perishable items fresh and safe with our state-of-the-art
+                  temperature-controlled storage solutions.
+                </p>
+              </div>
+              <span class="line"></span>
+            </div>
+            <div class="swiper-slide feature">
+              <div class="feature_icon">
+                <img src="images/feature/icon3.png" alt="" />
+              </div>
+              <div class="feature-content">
+                <h2>Cross-Docking</h2>
+                <p>
+                  Streamline the transfer of goods from inbound to outbound
+                  transportation without long-term storage.
+                </p>
+              </div>
+              <span class="line"></span>
+            </div>
+
+            <div class="swiper-slide feature">
+              <div class="feature_icon">
+                <img src="images/feature/icon2.png" alt="" />
+              </div>
+              <div class="feature-content">
+                <h2>Cold Storage</h2>
+                <p>
+                  Keep perishable items fresh and safe with our state-of-the-art
+                  temperature-controlled storage solutions.
+                </p>
+              </div>
+              <span class="line"></span>
+            </div>
+
+            <div class="swiper-slide feature">
+              <div class="feature_icon">
+                <img src="images/feature/icon3.png" alt="" />
+              </div>
+              <div class="feature-content">
+                <h2>Cross-Docking</h2>
+                <p>
+                  Streamline the transfer of goods from inbound to outbound
+                  transportation without long-term storage.
+                </p>
+              </div>
+              <span class="line"></span>
+            </div>
+            <div class="swiper-slide feature">
+              <div class="feature_icon">
+                <img src="images/feature/icon3.png" alt="" />
+              </div>
+              <div class="feature-content">
+                <h2>Cold Storage</h2>
+                <p>
+                  Keep perishable items fresh and safe with our state-of-the-art
+                  temperature-controlled storage solutions.
+                </p>
+              </div>
+              <span class="line"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-button-prev mr-10">
+          <i class="bi bi-arrow-right"></i>
+        </div>
+      </div>
+
+      <!-- for mid and less -->
+      <div class="feature-mid">
+        <div class="feature mobile-feature">
+          <div class="feature_icon">
+            <img src="images/feature/icon2.png" alt="" />
+          </div>
+          <div class="feature-content">
+            <h2>Cross-Docking</h2>
+            <p>
+              Streamline the transfer of goods from inbound to outbound
+              transportation without long-term storage.
+            </p>
+          </div>
+          <span class="line"></span>
+        </div>
+        <div class="feature mobile-feature">
+          <div class="feature_icon">
+            <img src="images/feature/icon3.png" alt="" />
+          </div>
+          <div class="feature-content">
+            <h2>Cold Storage</h2>
+            <p>
+              Keep perishable items fresh and safe with our state-of-the-art
+              temperature-controlled storage solutions.
+            </p>
+          </div>
+          <span class="line"></span>
+        </div>
+        <div class="feature">
+          <div class="feature_icon">
+            <img src="images/feature/icon2.png" alt="" />
+          </div>
+          <div class="feature-content">
+            <h2>Cross-Docking</h2>
+            <p>
+              Streamline the transfer of goods from inbound to outbound
+              transportation without long-term storage.
+            </p>
+          </div>
+          <span class="line"></span>
+        </div>
+      </div>
+      <div class="feature-bottom">
+        <span
+          >Explore the full range of our offerings to see how we can assist your
+          business. <a> More Services </a>
+        </span>
+      </div>
+    </div>
+    <!-- About area -->
+    <div class="about-area">
+      <div class="about-img">
+        <img src="images/about/about.jpg" alt="" />
+      </div>
+
+      <div class="about-wrap">
+        <div class="about-section">
+          <div class="section-title">
+            <h5>About The Company</h5>
+
+            <h1>Premier Logistics Services for Success</h1>
+            <p>
+              Achieve success with our top-notch logistics solutions, designed
+              to enhance efficiency and ensure prompt delivery every time.
+            </p>
+          </div>
+        </div>
+        <div class="about-content">
+          <div class="about-iconbox">
+            <div class="about-icon">
+              <img src="images/about/icon1.png" alt="" />
+            </div>
+            <div class="about-iconcontent">
+              <h3>Instant Shipment Updates</h3>
+              <p>
+                Stay informed with instant updates on your shipments, providing
+                accurate and timely tracking information at your fingertips.
+              </p>
+            </div>
+          </div>
+          <div class="about_button_area">
+            <div class="about-btn">
+              <a class="btn2" href="#">
+                More Details <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+            <div class="about-info">
+              <div class="about-info-icon">
+                <a href="tel:+562015550124">
+                  <i class="bi bi-telephone"></i>
+                </a>
+              </div>
+              <div class="about-infocontent">
+                <span>Emergency</span>
+                +56(201)555-0124
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service Area -->
+    <div class="service-area">
+      <div class="section-title">
+        <h5>Logistics Types</h5>
+        <h1>Preferred Logistics Servicess</h1>
+      </div>
+
+      <div class="service_images">
+        <div class="service-box">
+          <div class="service-img">
+            <img src="images/services/service1.jpg" alt="" />
+            <div class="service-icon">
+              <img src="images/services/services_icon1.png" alt="" />
+            </div>
+          </div>
+          <div class="service-conent">
+            <span> Tracking </span>
+            <h2><a href="#"> Transport by Road </a></h2>
+            <div class="service-btn">
+              <a href="#">
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-img">
+            <img src="images/services/service2.jpg" alt="" />
+            <div class="service-icon">
+              <img src="images/services/services_icon2.png" alt="" />
+            </div>
+          </div>
+          <div class="service-conent">
+            <span> Tracking </span>
+            <h2><a href="#"> Safety Garunteed </a></h2>
+            <div class="service-btn">
+              <a href="#">
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-img">
+            <img src="images/services/service3.jpg" alt="" />
+            <div class="service-icon">
+              <img src="images/services/services_icon3.png" alt="" />
+            </div>
+          </div>
+          <div class="service-conent">
+            <span> Tracking </span>
+            <h2>
+              <a href="#"> Managing logistics for </a>
+            </h2>
+            <div class="service-btn">
+              <a href="#">
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonial Area -->
+    <div class="testimonial-area">
+      <div class="section-title">
+        <h5>What Our Client Says</h5>
+        <h1>Successes Shared by Users</h1>
+      </div>
+
+      <div class="testimonial_container">
+        <div class="testimonial-box">
+          <div class="testimonial-box-inner">
+            <img src="images/testimonial/t1.png" alt="" />
+
+            <div class="testimonial-content">
+              <h2>Simon Reynolds</h2>
+              <span>Dramatical enhance</span>
+            </div>
+          </div>
+          <div class="testimonial-description">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+              ipsum suspendisse
+            </p>
+          </div>
+          <div class="testimonial-quote">
+            <i class="bi bi-quote"></i>
+          </div>
+        </div>
+
+        <div class="testimonial-box">
+          <div class="testimonial-box-inner">
+            <img src="images/testimonial/t2.png" alt="" />
+
+            <div class="testimonial-content">
+              <h2>Olivia Smith</h2>
+              <span>Dramatical enhance</span>
+            </div>
+          </div>
+          <div class="testimonial-description">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+              ipsum suspendisse
+            </p>
+          </div>
+          <div class="testimonial-quote">
+            <i class="bi bi-quote"></i>
+          </div>
+        </div>
+
+        <div class="testimonial-box">
+          <div class="testimonial-box-inner">
+            <img src="images/testimonial/t3.png" alt="" />
+
+            <div class="testimonial-content">
+              <h2>Xavier Lopez</h2>
+              <span>Dramatical enhance</span>
+            </div>
+          </div>
+          <div class="testimonial-description">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+              ipsum suspendisse
+            </p>
+          </div>
+          <div class="testimonial-quote">
+            <i class="bi bi-quote"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Appointment Area -->
+    <div class="appointment-area">
+      <div class="appointment-container">
+        <div class="appointment-container-inner">
+          <div class="appointment-container-position">
+            <div class="appointment-section">
+              <h5>Booking Appointment</h5>
+              <h1>Book Transport &amp; Logistics</h1>
+            </div>
+            <form action="" method="">
+              <div class="form_section">
+                <div class="form-box">
+                  <input type="text" name="name" placeholder="Full Name*" />
+                  <i class="bi bi-person-fill"></i>
+                </div>
+                <div class="form-box">
+                  <input type="email" name="email" placeholder="Email Here*" />
+                  <i class="bi bi-envelope-open"></i>
+                </div>
+              </div>
+              <div class="form_section">
+                <div class="form-box">
+                  <input type="text" name="text" placeholder="Weight. Kg*" />
+                  <i class="bi bi-bag"></i>
+                </div>
+                <div class="form-box">
+                  <input type="text" name="text" placeholder="Distance. km*" />
+                  <i class="bi bi-geo-alt-fill"></i>
+                </div>
+              </div>
+              <div class="form-box">
+                <select>
+                  <option value="1">Select Freight</option>
+                  <option value="2">Air Freight</option>
+                  <option value="3">Sea Freight</option>
+                  <option value="4">Road Freight</option>
+                </select>
+              </div>
+              <div class="form-box">
+                <button class="btn1" type="">
+                  Request Quote <i class="bi bi-arrow-right"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="appointment-bg">
+        <img src="images/appointment/bg.jpg" alt="" />
+      </div>
+      <div class="appointment-shape1">
+        <img src="images/appointment/shape.png" alt="" />
+      </div>
+      <div class="appointment-video">
+        <i class="bi bi-play"></i>
+      </div>
+    </div>
+
+    <!-- Project Area -->
+    <div class="project-area">
+      <div class="section-title">
+        <h5>Delivering Results</h5>
+
+        <h1>Commitment to Excellent Delivery</h1>
+      </div>
+
+      <div class="project_image_container">
+        <div class="project img1">
+          <div class="project-img">
+            <img src="images/project/p1.jpg" alt="" />
+            <div class="project-content">
+              <h2><a href="#">Professionals in Tech Fields</a></h2>
+              <span>Transportation 2024</span>
+            </div>
+            <div class="project-btn">
+              <a href="#"> Details <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project_image_container_inner">
+          <div class="project img2">
+            <div class="project-img">
+              <img src="images/project/p2.jpeg" alt="" />
+              <div class="project-content">
+                <h2><a href="#">Professionals in Tech Fields</a></h2>
+                <span>Transportation 2024</span>
+              </div>
+              <div class="project-btn">
+                <a href="#"> Details <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project img3">
+            <div class="project-img">
+              <img src="images/project/p3.jpeg" alt="" />
+              <div class="project-content">
+                <h2><a href="#">Professionals in Tech Fields</a></h2>
+                <span>Transportation 2024</span>
+              </div>
+              <div class="project-btn">
+                <a href="#"> Details <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project img4">
+          <div class="project-img">
+            <img src="images/project/p4.jpg" alt="" />
+            <div class="project-content">
+              <h2><a href="#">Professionals in Tech Fields</a></h2>
+              <span>Transportation 2024</span>
+            </div>
+            <div class="project-btn">
+              <a href="#"> Details <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pricing Area -->
+    <div class="pricing-area">
+      <div class="section-title">
+        <h5>Pricing &amp; Plans</h5>
+        <h1>Plans That Are Effective &amp; Affordable</h1>
+      </div>
+
+      <div class="price_box_area">
+        <div class="pricing-box">
+          <div class="pricing-content">
+            <h4>Basic Plan</h4>
+            <div>
+              <span class="pricie"> 60 </span>
+              <span class="dollar"> $ </span>
+              <span class="month">/ Per Month</span>
+            </div>
+          </div>
+          <div class="pricing-body">
+            <ul>
+              <li>1 warehouse</li>
+              <li>Custom business rules</li>
+              <li>Real-time rate shopping</li>
+              <li>100 freight shipments</li>
+              <li>Any time 24/7 hour support</li>
+            </ul>
+          </div>
+          <div class="pricing-btn">
+            <a href="#"> Order Now </a>
+          </div>
+        </div>
+
+        <div class="pricing-box">
+          <div class="pricing-content">
+            <h4>Standard Plan</h4>
+            <div>
+              <span class="pricie"> 79 </span>
+              <span class="dollar"> $ </span>
+              <span class="month">/ Per Month</span>
+            </div>
+          </div>
+          <div class="pricing-body">
+            <ul>
+              <li>1 warehouse</li>
+              <li>Custom business rules</li>
+              <li>Real-time rate shopping</li>
+              <li>100 freight shipments</li>
+              <li>Any time 24/7 hour support</li>
+            </ul>
+          </div>
+          <div class="pricing-btn">
+            <a href="#"> Order Now </a>
+          </div>
+        </div>
+
+        <div class="pricing-box">
+          <div class="pricing-content">
+            <h4>Premium Plan</h4>
+            <div>
+              <span class="pricie"> 93 </span>
+              <span class="dollar"> $ </span>
+              <span class="month">/ Per Month</span>
+            </div>
+          </div>
+          <div class="pricing-body">
+            <ul>
+              <li>1 warehouse</li>
+              <li>Custom business rules</li>
+              <li>Real-time rate shopping</li>
+              <li>100 freight shipments</li>
+              <li>Any time 24/7 hour support</li>
+            </ul>
+          </div>
+          <div class="pricing-btn">
+            <a href="#"> Order Now </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Call To Action -->
+    <div class="call-action">
+      <div class="call-action-content">
+        <img src="images/subscribe/s2.jpg" alt="" />
+        <div class="btn_container">
+          <h2>In Need of Top-notch Logistics and Transport Services?</h2>
+
+          <a class="btn2" href="#">
+            More Details <i class="bi bi-arrow-right"></i>
+          </a>
+          <a class="btn1" href="#">
+            Read More <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!--  Subscribe Area -->
+    <div class="subscribe-area">
+      <div class="sub-bg">
+        <div class="subscribe-content">
+          <h2>Secure Your World with Our Coverage!</h2>
+          <span>Not sure which policy suits you the best?</span>
+          <form action="" method="">
+            <div class="subscribe-form">
+              <input type="email" name="email" placeholder="Type Your Email" />
+              <button type="">Subscribe</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="subscribe-img">
+          <img src="images/subscribe/s1.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog Area -->
+    <div class="blog-area">
+      <div class="section-title">
+        <h5>Our News from Blog</h5>
+
+        <h1>Get Informed with the Latest News & Blog</h1>
+      </div>
+
+      <div class="blog_container">
+        <div class="blog-box">
+          <div class="blog-image">
+            <img src="images/blog/b1.jpg" alt="" />
+          </div>
+          <div class="blog-content">
+            <div class="blog-top">
+              <div class="blog-meta">
+                <div class="blog-meta-inner">
+                  <div class="blog-meta-img">
+                    <img src="images/blog/profile_meta.avif" alt="" />
+                  </div>
+                  <div class="blog-meta-content">
+                    <span><a href="#">Admin</a></span>
+                  </div>
+                  <div class="blog-comment">
+                    <i class="bi bi-chat"></i>
+                    <span>{6}Comments</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h2><a href="#"> New Additions to our great Metro trucks. </a></h2>
+            <a class="blog-btn" href="#">
+              Read More <i class="bi bi-arrow-up-short"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="blog-box">
+          <div class="blog-content">
+            <div class="blog-top">
+              <div class="blog-meta">
+                <div class="blog-meta-inner">
+                  <div class="blog-meta-img">
+                    <img src="images/blog/profile_meta.avif" alt="" />
+                  </div>
+                  <div class="blog-meta-content">
+                    <span><a href="#">Admin</a></span>
+                  </div>
+                  <div class="blog-comment">
+                    <i class="bi bi-chat"></i>
+                    <span>{6}Comments</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h2><a href="#"> New Additions to our great Metro trucks. </a></h2>
+            <a class="blog-btn" href="#">
+              Read More <i class="bi bi-arrow-up-short"></i
+            ></a>
+          </div>
+          <div class="blog-image style2">
+            <img src="images/blog/b2.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="blog-box">
+          <div class="blog-image"><img src="images/blog/b3.jpg" alt="" /></div>
+          <div class="blog-content">
+            <div class="blog-top">
+              <div class="blog-meta">
+                <div class="blog-meta-inner">
+                  <div class="blog-meta-img">
+                    <img src="images/blog/profile_meta.avif" alt="" />
+                  </div>
+                  <div class="blog-meta-content">
+                    <span><a href="#">Admin</a></span>
+                  </div>
+                  <div class="blog-comment">
+                    <i class="bi bi-chat"></i>
+                    <span>{6}Comments</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h2><a href="#"> New Additions to our great Metro trucks. </a></h2>
+            <a class="blog-btn" href="#">
+              Read More <i class="bi bi-arrow-up-short"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Brand Area -->
+    <div class="brand-area">
+      <div class="brand-title">
+        <h2>Our Partners &amp; Suppoters</h2>
+      </div>
+
+      <!-- <div class="brand-carousel owl-carousel wow fadeInUp owl-loaded owl-drag" style="visibility: hidden; animation-name: none;"> -->
+
+      <div class="brand_img_container">
+        <img src="images/b.png" alt="" />
+
+        <img src="images/b.png" alt="" class="brand_img" />
+
+        <img src="images/b.png" alt="" class="brand_img" />
+
+        <img src="images/b.png" alt="" class="brand_img" />
+      </div>
+    </div>
+
+    <!-- ST Footer Area -->
+    <div class="st-footer-area">
+      <div class="footer-container">
+        <div class="footer_box">
+          <div class="footer-logo">
+            <a href="#"> <img src="images/ts_logo.png" alt="" /> </a>
+          </div>
+          <div class="footer-text">
+            <p>
+              Feugiat a ligula rutrum luctus primis ultrice nteger congue magna
+              at pretium purus a pretium ligula rutrum and luctus
+            </p>
+          </div>
+          <div class="social-icon">
+            <h2>Social Info</h2>
+            <a href="#"> <i class="bi bi-facebook"></i> </a>
+            <a href="#"> <i class="bi bi-twitter"></i> </a>
+            <a href="#"> <i class="bi bi-pinterest"></i> </a>
+            <a href="#"> <i class="bi bi-instagram"></i> </a>
+          </div>
+        </div>
+        <div class="footer_box">
+          <div class="footer-title">
+            <h2>Our Navigation</h2>
+          </div>
+          <div class="footer-link">
+            <a href="#">
+              <i class="bi bi-chevron-double-right"></i> Airplane Fright
+            </a>
+            <a href="#">
+              <i class="bi bi-chevron-double-right"></i> About Portx
+            </a>
+            <a href="#">
+              <i class="bi bi-chevron-double-right"></i> Meet The Team
+            </a>
+            <a href="#">
+              <i class="bi bi-chevron-double-right"></i> News &amp; Media
+            </a>
+            <a href="#">
+              <i class="bi bi-chevron-double-right"></i> Our Projects
+            </a>
+          </div>
+        </div>
+        <div class="footer_box">
+          <div class="footer-title">
+            <h2>Our Service</h2>
+          </div>
+          <div class="footer-link">
+            <a href="#">
+              <i class="bi bi-chevron-double-right"></i> Reliability &amp;
+              Punctuality
+            </a>
+            <a href="#">
+              <i class="bi bi-chevron-double-right"></i> Trusted Franchise
+            </a>
+            <a href="#">
+              <i class="bi bi-chevron-double-right"></i> Warehoues Storage
+            </a>
+            <a href="#">
+              <i class="bi bi-chevron-double-right"></i> Real Time Tracking
+            </a>
+            <a href="#">
+              <i class="bi bi-chevron-double-right"></i> Transparent Pricing
+            </a>
+          </div>
+        </div>
+        <div class="footer_box">
+          <div class="footer-title">
+            <h2>Newsletter</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod
+            </p>
+          </div>
+          <div class="footer-subscribe-form">
+            <input type="email" name="email" placeholder="Email Address" />
+            <button type="#">
+              <i class="bi bi-chevron-double-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-copyright">
+        <span>
+          © Copyrights 2024 <a href="#"> Services</a> All rights reserved.
+        </span>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".button-next",
+          prevEl: ".button-prev",
+        },
+      });
+
+      const swiper2 = new Swiper(".swiper2", {
+        slidesPerView: 3,
+        centeredSlides: true,
+        spaceBetween: 30,
+
+        pagination: {
+          el: ".swiper-pagination",
+          type: "fraction",
+        },
+        navigation: {
+          nextEl: ".feature-button-next",
+          prevEl: ".feature-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
